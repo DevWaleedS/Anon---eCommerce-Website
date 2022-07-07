@@ -79,8 +79,10 @@ accordingBtn.forEach((ele) => {
     
     // for looping for according to remove active class 
     according.forEach((accord) => {
-      
 
+      if (clickedBtn) {
+            return
+      }
       if (accord.classList.contains('active')) {
         accord.classList.remove('active');
         ele.classList.remove("active");
