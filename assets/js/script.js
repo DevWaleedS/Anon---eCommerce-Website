@@ -75,6 +75,19 @@ accordingBtn.forEach((ele) => {
 
   // addEventListener to this according
   ele.addEventListener("click", () => {
+    const clickedBtn = ele.nextElementSibling.classList.contains('active'); 
+    
+    // for looping for according to remove active class 
+    according.forEach((accord) => {
+      if (clickedBtn) {
+        break;
+      }
+      if (accord.classList.contains('active')) {
+        accord.classList.remove('active');
+        ele.classList.remove("active");
+      }
+
+    })
     ele.classList.toggle("active");
     ele.nextElementSibling.classList.toggle("active");
   });
