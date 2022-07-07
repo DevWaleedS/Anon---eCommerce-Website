@@ -1,0 +1,23 @@
+{
+  "name": "anon-ecommerce-website",
+  "version": "1.0.0",
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/anon-ecommerce-website)\r ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/anon-ecommerce-website?style=social)\r ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/anon-ecommerce-website?style=social)\r [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)\r [![YouTube Video Views](https://img.shields.io/youtube/views/3l8Lob4ysI0?style=social)](https://youtu.be/3l8Lob4ysI0)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithsadee/anon-ecommerce-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithsadee/anon-ecommerce-website/issues"
+  },
+  "homepage": "https://github.com/codewithsadee/anon-ecommerce-website#readme",
+  "dependencies": {
+    "flag-icons": "^6.6.2"
+  }
+}
